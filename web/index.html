@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+
+    <title>My live image recognizer</title>
+</head>
+
+<body>
+    <div class="holder">
+        <h1 class="title">Hi this is your image server</h1>
+        <div class="form_holder">
+            <form action="" onsubmit="submitFn();return false;" id="my_form">
+                <label for="dir">Images dir</label> <input type="text" name="dir" id="dir_select">
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="list_holder">
+                <h2>The list of all images(sorted by size)</h2>
+                <ul class="image_list">
+                    <li> No images found! </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
