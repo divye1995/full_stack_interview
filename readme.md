@@ -21,3 +21,6 @@
 > source env/bin/activate
 > python3 -m pip install -r requirements.txt
 > ``` 
+
+
+To download sample images visit : https://picsum.photos/images
