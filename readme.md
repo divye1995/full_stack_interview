@@ -24,3 +24,8 @@
 
 
 To download sample images visit : https://picsum.photos/images
+
+if you are using node : you can us the [fs](https://nodejs.org/api/fs.html)
+using python use the [os lib](https://docs.python.org/3/library/os.html)
+
+you can use any other stack too!. 
